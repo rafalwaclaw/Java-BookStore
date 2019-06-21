@@ -136,7 +136,7 @@
               <configuration>
                 <systemPropertyVariables>
                   <!-- Remember to deploy the app and start the server in advance -->
-                  <integration.base.url>http://localhost:8080</integration.base.url>
+                  <integration.base.url>http://localhost:8081</integration.base.url>
                 </systemPropertyVariables>
               </configuration>
             </execution>
@@ -147,7 +147,7 @@
             <artifactId>tomcat7-maven-plugin</artifactId>
             <version>2.2</version>
             <configuration>
-              <port>8080</port>
+              <port>8081</port>
               <path>/</path>
               <contextReloadable>true</contextReloadable>
             </configuration>
